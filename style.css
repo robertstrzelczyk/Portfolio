@@ -126,3 +126,30 @@ p {
     width: 24px;
     margin-bottom: 3px;
 }
+.skillsSection {
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+.skillsSection .box .chart {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 110px;
+}
+.skillsSection .box canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Image {
+    height: 80px;
+    margin-top: 20px
+}
+.col-lg-2 {
+    margin-top: 40px;
+}
+#box2 {
+    margin-top: 40px;
+}

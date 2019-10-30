@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="style.css">
    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
    <link href="/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
+   <link href="devicons-master/css/devicons.min.css" rel="stylesheet">
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="/jquery.easypiechart.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
    
@@ -96,11 +101,102 @@
        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
    </div>
-   <div id="skills" style="background-color: blue">
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+   <div id="skills" class="skillsSection">
+   <div class="box">
+      <h1>Frontend</h1>
+      <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2">
+       <div class="chart" data-percent="85">
+           <img class="Image" src="https://icongr.am/devicon/html5-original-wordmark.svg">
+       </div>
+       </div>
+       <div class="col-lg-2">
+       <div class="chart" data-percent="85">
+           <img class="Image" src="https://icongr.am/devicon/css3-original-wordmark.svg">
+       </div>
+       </div>
+       <div class="col-lg-2">
+       <div class="chart" data-percent="85">
+           <img class="Image" src="https://icongr.am/devicon/bootstrap-plain-wordmark.svg">
+       </div>
+       </div>
+       <div class="col-lg-2">
+       <div class="chart" data-percent="55">
+           <img class="Image" src="https://icongr.am/devicon/javascript-original.svg">
+       </div>
+       </div>
+       <div class="col-lg-2">
+       <div class="chart" data-percent="65">
+           <img class="Image" src="https://icongr.am/devicon/jquery-plain-wordmark.svg">
+       </div>
+       </div>
+        <div class="col-lg-1"></div>   
+       </div>
+       <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2">
+       <div class="chart" data-percent="40">
+           <img class="Image" src="https://icongr.am/devicon/angularjs-original.svg">
+       </div>
+       </div>
+       <div class="col-lg-2">
+       <div class="chart" data-percent="50">
+           <img class="Image" src="https://icongr.am/devicon/wordpress-original.svg">
+       </div>
+       </div>
+       <div class="col-lg-2">
+       <div class="chart" data-percent="60">
+           <img class="Image" src="https://icongr.am/devicon/sass-original.svg">
+       </div>
+       </div>
+       <div class="col-lg-2">
+       <div class="chart" data-percent="30">
+           <img class="Image" src="https://icongr.am/devicon/typescript-original.svg">
+       </div>
+       </div>
+       <div class="col-lg-2">
+       <div class="chart" data-percent="70">
+           <img class="Image" src="/img/material.png">
+       </div>
+       </div>
+        <div class="col-lg-1"></div>   
+       </div>
    </div>
+   <div class="box" id="box2">
+      <h1>Pozostałe</h1>
+      <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2">
+       <div class="chart" data-percent="55">
+           <img class="Image" src="https://icongr.am/devicon/dot-net-original-wordmark.svg">
+       </div>
+       </div>
+       <div class="col-lg-2">
+       <div class="chart" data-percent="65">
+           <img class="Image" src="https://icongr.am/devicon/github-original-wordmark.svg">
+       </div>
+       </div>
+       <div class="col-lg-2">
+       <div class="chart" data-percent="70">
+           <img class="Image" src="/img/microsoft-sql-server.svg">
+       </div>
+       </div>
+       <div class="col-lg-2">
+       <div class="chart" data-percent="75">
+           <img class="Image" src="/img/com.castsoftware.entity.png">
+       </div>
+       </div>
+       <div class="col-lg-2">
+       <div class="chart" data-percent="65">
+           <img class="Image" src="/img/soapui-logo.png">
+       </div>
+       </div>
+        <div class="col-lg-1"></div>   
+       </div>
+   </div>
+</div>
+  
    <div id="contact" style="background-color: green">
        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
    </div>
