@@ -126,6 +126,9 @@ p {
     width: 24px;
     margin-bottom: 3px;
 }
+#projects {
+    margin-top: 40px;
+}
 .skillsSection {
     margin-bottom: 60px;
     margin-top: 20px;
@@ -152,4 +155,48 @@ p {
 }
 #box2 {
     margin-top: 40px;
+}
+.projectgrid {
+    transition: all .2s ease-in-out;
+}
+.projectgrid:hover { 
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+#contact {
+    background-color: #333333;
+
+}
+.footerp {
+    text-align: center;
+    color: #fff;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.Footerhead {
+    color: #fff;
+}
+#contact a {
+    background: #808080;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+   
+}
+.iconMargin {
+     margin-left: 40px;
+}
+#contact a:hover {
+    opacity: 0.4;
+}
+#contact a i {
+    font-size: 25px;
+    color: #fff;
+    padding: 12px 12px;
+}
+.iconDiv {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
