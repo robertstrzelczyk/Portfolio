@@ -8,4 +8,5 @@ $(function() {
             lineCap: 'circle',
             animate: 1500
         });
+    
     });
