@@ -24,10 +24,10 @@
                  <li class="nav-item MenuNav">
                       <a class="nav-link" href="#contact" id="menu">{{ 'Contact' | translate}}</a>
                 </li>
-                <li class="nav-item MenuNav">
+                <li class="nav-item LanguageFlag">
                     <a class="nav-link" (click)="switchLanguage('pl')"><img src="../assets/img/poland-flag-icon-32.png"></a>
                 </li>
-                <li class="nav-item MenuNav">
+                <li class="nav-item LanguageFlag">
                     <a class="nav-link" (click)="switchLanguage('en')"><img src="../assets/img/united-kingdom-flag-icon-32.png"></a>
                 </li>
   </ul>
@@ -47,13 +47,13 @@
           <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-4">
-           <p>Nazywam się <strong>Robert Strzelczyk</strong> i od dłuższego czasu interesuję się tematyką projektowania oraz kodowania stron internetowych.<br />
-           Ukończyłem studia I oraz II stopnia kierunku <strong>Informatyka</strong> na wydziale <strong>Inżynierii Mechanicznej i Informatyki Politechniki Częstochowskiej.</strong> Przez pół roku miałem okazję pracować jako Junior Front-end Developer, gdzie wykorzystywałem takie technologię jak: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JS</strong>, <strong>Angular</strong> oraz <strong>Angular Material</strong>.<br />
-           Chciałbym dalej rozwijać swoje umiejętności w tej dziedzinie oraz poznawać nowe technologię, dzięki którym będę mógł tworzyć bardziej rozbudowane projekty. <br />
+           <p>{{'MyName' | translate}} <strong>Robert Strzelczyk</strong> {{'MyInteresting' | translate}}<br />
+           {{'StudyDescription' | translate}} <strong>{{'IT' | translate}}</strong> {{'AtTheFaculty' | translate}} <strong>{{'Faculty' | translate}}</strong> {{'WorkDescription' | translate}} <strong>HTML</strong>, <strong>CSS</strong>, <strong>JS</strong>, <strong>Angular</strong> {{'And' | translate}} <strong>Angular Material</strong>.<br />
+           {{'MyPlans' | translate}} <br />
            <br />
-           Uwielbiam grać oraz oglądać piłkę nożną i jeździć rowerem. Interesuję się branżą GSM oraz motoryzacją. 
+           {{'MyHobby' | translate}}
            <br />
-           Możesz mnie znaleźć na: <a href="https://www.facebook.com/robert.strzelczyk.90" id="Fb">Facebook / </a><a href="https://www.linkedin.com/in/robert-strzelczyk-3910b415a/" id="In">LinkedIn / </a>
+           {{'FindMeAt' | translate}} <a href="https://www.facebook.com/robert.strzelczyk.90" id="Fb">Facebook / </a><a href="https://www.linkedin.com/in/robert-strzelczyk-3910b415a/" id="In">LinkedIn / </a>
            
            </p>
        <div class="row">
@@ -79,9 +79,9 @@
             <ul>
                 <li>
                     <div class="Horizontalcontent">
-                        <h3>II Liceum Ogólnokształcące</h3>
-                        <p>Specjalizacja: Matematyczno-Geograficzno-Informatyczny <br />
-                           Poziom wykształcenia: średnie
+                        <h3>{{'HighSchool' | translate}}</h3>
+                        <p>{{'Specialization' | translate}}<br />
+                           {{'EducationLevel' | translate}}
                         </p>
                     </div>
                     <div class="time">
@@ -90,10 +90,10 @@
                 </li>
                 <li>
                     <div class="Horizontalcontent">
-                        <h3>Politechnika Częstochowska</h3>
-                       <p>Kierunek: Informatyka <br />
-                          Specjalizacja: Programowanie Aplikacji Internetowych <br />
-                          Poziom wykształcenia: inżynier
+                        <h3>{{'University' | translate}}</h3>
+                       <p>{{'FieldOfStudy' | translate}} <br />
+                          {{'StudySpecialization' | translate}} <br />
+                          {{'StudyEducationlevel' | translate}}
                        </p>
                     </div>
                     <div class="time">
@@ -102,10 +102,10 @@
                 </li>
                 <li>
                     <div class="Horizontalcontent">
-                        <h3>Politechnika Częstochowska</h3>
-                         <p>Kierunek: Informatyka <br />
-                          Specjalizacja: Zintegrowane Systemy Zarządzania i Analizy Danych <br />
-                          Poziom wykształcenia: magister inżynier
+                        <h3>{{'University' | translate}}</h3>
+                         <p>{{'FieldOfStudy' | translate}} <br />
+                          {{'StudySecondSpecialization' | translate}}<br />
+                          {{'SecondEducationLevel' | translate}}
                           </p>
                     </div>
                     <div class="time">
@@ -115,11 +115,11 @@
                 <li>
                     <div class="Horizontalcontent">
                         <h3>Savangard sp.z o.o</h3>
-                        <p> Stanowisko: Stażysta <br />
-                           Krótki opis stanowiska: <br />
-                           - Tworzenie nowych funkcji interfejsu użytkownika z wykorzystaniem techgnologii: JavaScript Angular, HTML, CSS, Angular Material. <br />
-                           - Testowanie oprogramowania w programie SoapUI. <br />
-                           - Utrzymywanie istniejących systemów z wykorzystaniem architektury SOA.
+                        <p> {{'Position' | translate}} <br />
+                           {{'JobDescription' | translate}} <br />
+                           - {{'FirstDescription' | translate}} <br />
+                           - {{'SecondDescription' | translate}} <br />
+                           - {{'ThirdDescription' | translate}}
                         </p>
                     </div>
                     <div class="time">
@@ -233,7 +233,7 @@
        </div>
    </div>
    <div class="box" id="box2">
-      <h1>Pozostałe</h1>
+      <h1>{{'Others' | translate}}</h1>
       <div class="row">
       <div class="col-lg-1"></div>
       <div class="col-lg-2">
@@ -267,14 +267,14 @@
 </div>
   
    <div id="contact">
-      <h1 class="Footerhead">Znajdziesz mnie na: </h1>
+      <h1 class="Footerhead">{{'FindMeAt' | translate}} </h1>
       <div class="iconDiv">
        <a  href="https://www.facebook.com/robert.strzelczyk.90"><i class="fa fa-facebook-f"></i></a>
        <a  href="https://www.instagram.com/rstrzelczyk/" class="iconMargin"><i class="fa fa-instagram"></i></a>
        <a  href="https://www.linkedin.com/in/robert-strzelczyk-3910b415a/" class="iconMargin"><i class="fa fa-linkedin"></i></a>
        <a  href="https://github.com/robertstrzelczyk" class="iconMargin"><i class="fa fa-github"></i></a>
        </div>
-       <p class="footerp">Robert Strzelczyk © 2019 Wszelkie prawa zastrzeżone.</p>
+       <p class="footerp">Robert Strzelczyk © 2019 {{'AllRights' | translate}}</p>
    </div>
 </body>
 

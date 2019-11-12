@@ -36,6 +36,16 @@
       font-weight: bold;
      
   }
+  .LanguageFlag {
+    margin-top: 20px;
+    margin-right: 25px;
+    font-weight: bold;   
+    transition: all .2s ease-in-out;
+}
+.LanguageFlag:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
   .MenuNav:after {
       content: '';
       display: block;
