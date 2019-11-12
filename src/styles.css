@@ -97,10 +97,14 @@
   }
   #DownloadCVPL{
       width: 200px;
+      background-color: #333;
+      border-color: #333;
       
   }
   #DownloadCVEN{
       width: 200px;
+      background-color: #333;
+      border-color: #333;
      
   }
   p {
